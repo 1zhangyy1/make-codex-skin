@@ -1,0 +1,4 @@
+interface:
+  display_name: "Make Codex Skin"
+  short_description: "Turn an open visual direction into a Codex skin"
+  default_prompt: "Use $make-codex-skin to design a coherent, readable Codex desktop skin from my visual direction."

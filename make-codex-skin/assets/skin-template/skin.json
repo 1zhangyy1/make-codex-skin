@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "skin-template",
+  "version": "0.1.0",
+  "name": { "en": "Skin Template", "zh-CN": "皮肤模板" },
+  "summary": "Replace this with one sentence describing the visual direction.",
+  "author": "Private creator",
+  "license": "UNLICENSED",
+  "engine": { "minVersion": "0.1.0" },
+  "appearance": {
+    "palette": {
+      "background": "#0A1118",
+      "surface": "#14212B",
+      "sidebar": "#0D171F",
+      "text": "#F2F7FA",
+      "muted": "#A7B6C0",
+      "accent": "#70E1F2",
+      "accentSoft": "#254653",
+      "border": "#38515D"
+    },
+    "typography": { "ui": "system-sans", "code": "system-mono" },
+    "layout": { "preset": "hero", "radius": 18, "sidebarOpacity": 0.9, "taskOpacity": 0.86 },
+    "artwork": { "kind": "procedural", "preset": "aurora", "seed": 7142, "focalPoint": [0.76, 0.28], "safeArea": [0.08, 0.1, 0.18, 0.08] },
+    "effects": { "blur": 20, "grain": 0.06, "glow": true, "motion": "subtle" }
+  },
+  "compatibility": {
+    "targets": ["codex-desktop-macos"],
+    "profiles": ["codex-mac-26.7"],
+    "minVersion": "26.707.0",
+    "maxTestedVersion": "26.707.72221",
+    "mode": "external-renderer"
+  }
+}

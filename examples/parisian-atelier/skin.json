@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "parisian-atelier",
+  "version": "0.1.0",
+  "name": { "en": "Parisian Atelier", "zh-CN": "巴黎艺术沙龙" },
+  "summary": "Warm ivory surfaces, dusty rose, and wine-red details shaped like a quiet Left Bank art studio.",
+  "author": "Make Codex Skin example",
+  "license": "CC0-1.0",
+  "engine": { "minVersion": "0.1.0" },
+  "appearance": {
+    "palette": {
+      "background": "#EEE7DC",
+      "surface": "#FAF6EF",
+      "sidebar": "#E5DACD",
+      "text": "#302927",
+      "muted": "#75655F",
+      "accent": "#A64D5D",
+      "accentSoft": "#DEC1C2",
+      "border": "#C8B8AA"
+    },
+    "typography": { "ui": "system-serif", "code": "system-mono" },
+    "layout": { "preset": "editorial", "radius": 16, "sidebarOpacity": 0.96, "taskOpacity": 0.94 },
+    "artwork": { "kind": "procedural", "preset": "atelier", "seed": 1895, "focalPoint": [0.82, 0.24], "safeArea": [0.1, 0.1, 0.2, 0.08] },
+    "effects": { "blur": 6, "grain": 0.08, "glow": false, "motion": "none" }
+  },
+  "compatibility": {
+    "targets": ["codex-desktop-macos"],
+    "profiles": ["codex-mac-26.7"],
+    "minVersion": "26.707.0",
+    "maxTestedVersion": "26.707.72221",
+    "mode": "external-renderer"
+  }
+}
