@@ -113,9 +113,9 @@ This v0.1 proves that AI can be taught to design varied Codex skins without a cl
 
 The output format is an experimental community format, not the official Codex Appearance theme format. Never redistribute artwork, characters, logos, photos, or fonts without the appropriate rights.
 
-## Inspiration and references
+## Reference project: Codex-Dream-Skin
 
-This project was inspired in part by [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin), which demonstrated that an external renderer can keep native Codex controls interactive while using a dedicated home image, a lower-noise task background, loopback CDP, and a restore path. Its macOS documentation also recommends wide images of at least 2000 px and keeping native content zones calm.
+This project references [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin), which demonstrated that an external renderer can keep native Codex controls interactive while using a dedicated home image, a lower-noise task background, loopback CDP, and a restore path. Its macOS documentation also recommends wide images of at least 2000 px and keeping native content zones calm.
 
 `make-codex-skin` is an independent AI creation Skill and experimental data format. It does not copy, bundle, install, or claim drop-in compatibility with the Codex Dream Skin engine. Thanks to Fei-Away and contributors for making the practical rendering approach visible to the community.
 

@@ -113,9 +113,9 @@ v0.1 先验证一件事：AI 能否在没有固定视觉配方菜单的情况下
 
 输出格式是实验性的社区格式，不是 Codex 官方 Appearance 主题格式。没有明确授权时，不要分发角色、品牌、照片、字体或其他受保护素材。
 
-## 灵感来源与致谢
+## 参考项目：Codex-Dream-Skin
 
-本项目部分受到 [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 启发。这个项目验证了外部渲染器可以在保持 Codex 原生控件可交互的同时，使用首页主图、低干扰任务背景、本机回环 CDP 与恢复流程；其 macOS 文档也建议图片宽度至少 2000 px，并为原生内容保留安静区域。
+本项目参考了 [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin)。这个项目验证了外部渲染器可以在保持 Codex 原生控件可交互的同时，使用首页主图、低干扰任务背景、本机回环 CDP 与恢复流程；其 macOS 文档也建议图片宽度至少 2000 px，并为原生内容保留安静区域。
 
 `make-codex-skin` 是独立的 AI 创作 Skill 与实验性数据格式，不复制、不捆绑、不安装 Codex Dream Skin 引擎，也不声称可以直接兼容它。感谢 Fei-Away 与贡献者把真实渲染路径公开给社区参考。
 
