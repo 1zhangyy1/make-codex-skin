@@ -28,7 +28,9 @@ Provide eight six-digit hex colors: `background`, `surface`, `sidebar`, `text`, 
 
 Keep `system-mono` for code. Layout and procedural preset names are internal rendering primitives, not visual recipes. Choose them only after the art direction exists. If no primitive expresses the direction, use image artwork or report the missing capability.
 
-For image artwork, keep the source inside `assets/` and describe normalized `focalPoint` and `safeArea` coordinates. Use blur, grain, glow, and motion deliberately rather than maximizing every value.
+For image artwork, keep the source inside `assets/` and describe normalized `focalPoint` and `safeArea` values. `focalPoint` biases crop alignment; it does not move a subject around native UI. Interpret `safeArea` as `[left, top, right, bottom]` quiet insets. It is a design contract, not proof that a renderer performs collision avoidance. Use blur, grain, glow, and motion deliberately rather than maximizing every value.
+
+Prefer a 16:10 master at 2560×1600 or larger for a general full-window image. A source should normally be at least 2000 px wide. Ultra-wide artwork is suitable only for a banner-specific renderer; when used with `cover` in a normal window it may lose a large part of both horizontal edges.
 
 ## Validation claims
 

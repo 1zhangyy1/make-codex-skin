@@ -13,12 +13,14 @@ Use the official Codex desktop app as the product and interaction baseline. A sk
 
 ## Composition guidance
 
-- Keep a broad low-detail area for native content.
+- Keep a broad low-detail area for native content. Measure it from the actual Codex renderer; do not assume that “left side calm” is sufficient because the home title and suggestion cards occupy the central main surface.
 - Place a focal subject away from headings and the composer.
 - Keep the lower central band calm.
 - Let decorative lines, clouds, grain, or foliage exit the frame instead of ending in hard crops.
 
 Treat these as relationships, not a fixed layout recipe. Verify the actual window and artwork when possible.
+
+On the home state, treat the native title, suggestion cards, and composer as one protected composition rather than three unrelated elements. On task states, the readable work surface must dominate the artwork. If a face, hand, product, or other meaningful subject intersects native text or controls, the composition fails even when contrast passes.
 
 ## Invariants
 

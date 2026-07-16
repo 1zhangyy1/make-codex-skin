@@ -23,6 +23,16 @@ Complete these checks before presenting a skin as finished.
 - Sidebar detail does not fight navigation and task titles.
 - The design has one protagonist and one coherent material language.
 
+For raster artwork, also inspect:
+
+- Home at 1440×900, 1280×800, and 1024×768.
+- A real task state at a wide and a smaller viewport.
+- Sidebar expanded and any supported collapsed state.
+- Every meaningful face, hand, object, and artwork edge after `cover` cropping.
+- Native title, suggestion cards, composer, menus, and long-form task content.
+
+Fail the skin if a meaningful subject intersects native text or controls, if the composition relies on transparent pixels becoming a specific color, or if a crop removes context required to understand the artwork.
+
 ## Interaction assumptions
 
 - Decorative layers must be non-interactive.

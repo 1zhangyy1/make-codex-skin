@@ -19,6 +19,7 @@ Create a coherent Codex visual system, not a wallpaper pasted behind the app. Ke
 
 - Read `references/codex-ui-anatomy.md` before the first design in a task or when composition is uncertain.
 - Read `references/visual-workflow.md` when creating or adapting artwork and deriving a palette.
+- Read `references/image-placement.md` whenever the skin uses raster artwork, a character, a recognizable object, or different artwork across home and task states.
 - Read `references/skin-format.md` before writing `skin.json` or preparing a shareable folder.
 - Read `references/qa.md` before presenting a skin as complete.
 - Read `examples/masterpieces-after-hours/` only when a worked image-based output would help, and `examples/parisian-atelier/` only when a worked procedural output would help. Learn the workflow and package shape; never treat either example as a style recipe.
@@ -27,10 +28,10 @@ Create a coherent Codex visual system, not a wallpaper pasted behind the app. Ke
 
 1. Write a compact brief from the user's words and references. Infer ordinary details when the direction is already clear.
 2. Synthesize one strong art direction. Do not begin from a catalog of named styles or force the request into a known recipe.
-3. Prepare artwork when it materially carries the identity. Preserve a quiet zone for native content and avoid fake controls, embedded text, logos, and watermarks.
+3. Prepare artwork when it materially carries the identity. Choose a placement mode from `references/image-placement.md`, preserve a measured quiet zone for native content, and avoid fake controls, embedded text, logos, and watermarks.
 4. Copy `assets/skin-template/` into a new directory named after the skin id. Edit the copy; never edit the bundled template in place.
 5. Make palette, surfaces, typography, composition, artwork, and motion express the same idea. Protect readability before decorative polish.
-6. Check the folder against `references/skin-format.md` and `references/qa.md`. If a compatible `codex-skin check` command already exists in the user's environment, run it; otherwise report that engine validation was not performed.
+6. Check the folder against `references/skin-format.md` and `references/qa.md`. For image skins, inspect the home and task states at the required viewport matrix; a manifest-only check cannot prove placement. If a compatible `codex-skin check` command already exists in the user's environment, run it; otherwise report that engine validation was not performed.
 7. Fix every static failure. Do not weaken contrast, rights, or package restrictions to make a skin appear complete.
 8. Return the skin directory, art direction, artwork provenance, static QA result, and any validation that actually ran.
 

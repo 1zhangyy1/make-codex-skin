@@ -77,6 +77,10 @@ The artwork was generated for this project with OpenAI image generation. The fig
 
 The preview above is a sanitized mockup made for the repository. It contains no private Codex tasks and is not proof of official theme support or one-click installation.
 
+Image placement is part of the skin design, not a final coordinate tweak. The Skill now distinguishes full-bleed environments, anchored heroes, transparent foreground cutouts, texture fields, and route-specific home/task pairs. It also requires crop testing at multiple window sizes. See [`image-placement.md`](./make-codex-skin/references/image-placement.md).
+
+The current Masterpieces source is intentionally documented as a placement finding: its ultra-wide `2.50:1` canvas can crop aggressively in a normal Codex window. The mock shows the target hierarchy, while the example notes record that the raster still needs a 16:10 production recompose before it can be treated as cross-window ready.
+
 ## How the Skill thinks
 
 ```text
@@ -108,6 +112,12 @@ LICENSE                   MIT
 This v0.1 proves that AI can be taught to design varied Codex skins without a closed menu of visual recipes. It does not yet solve one-click installation or cross-version live rendering.
 
 The output format is an experimental community format, not the official Codex Appearance theme format. Never redistribute artwork, characters, logos, photos, or fonts without the appropriate rights.
+
+## Inspiration and references
+
+This project was inspired in part by [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin), which demonstrated that an external renderer can keep native Codex controls interactive while using a dedicated home image, a lower-noise task background, loopback CDP, and a restore path. Its macOS documentation also recommends wide images of at least 2000 px and keeping native content zones calm.
+
+`make-codex-skin` is an independent AI creation Skill and experimental data format. It does not copy, bundle, install, or claim drop-in compatibility with the Codex Dream Skin engine. Thanks to Fei-Away and contributors for making the practical rendering approach visible to the community.
 
 ## License
 
