@@ -10,7 +10,7 @@
 
 </div>
 
-![在安全模拟界面中展示的皮肤案例](./docs/example-skin.jpg)
+![名画夜班的脱敏模拟预览](./docs/masterpieces-after-hours-preview.jpg)
 
 ## 一个仓库，只做一个 Skill
 
@@ -58,7 +58,24 @@ my-skin/
     └── background.png   可选
 ```
 
-[`examples/parisian-atelier`](./examples/parisian-atelier/) 是一次真实生成结果。它只是案例，不是要求 AI 套用的配方。
+仓库包含两个可以检查的真实结果：
+
+- [`make-codex-skin/examples/parisian-atelier`](./make-codex-skin/examples/parisian-atelier/)：从“法式浪漫”描述生成的程序化皮肤。
+- [`make-codex-skin/examples/masterpieces-after-hours`](./make-codex-skin/examples/masterpieces-after-hours/)：从“让名画里的人使用电脑”生成的带图皮肤。
+
+它们用来展示工作过程，不是要求 AI 套用的配方。
+
+## 带图案例：名画夜班
+
+用户最初只说了一句话：
+
+> 做一个艺术展皮肤，让名画里的人用电脑。
+
+Skill 把它转译成闭馆后的美术馆：重新演绎的蒙娜丽莎、戴珍珠耳环的少女与梵高集中在右侧，围着没有品牌和屏幕文字的电脑工作；左侧与底部中央继续为 Codex 原生内容留白。
+
+背景图使用 OpenAI 图像生成制作。人物来自公共领域名画的重新演绎，没有直接复制第三方画作文件，也没有嵌入 Logo、屏幕文字或假界面。图片素材目前保持 `UNLICENSED`，直到创作者明确选择再利用许可证。
+
+上方图片是专门为仓库制作的脱敏模拟预览，不包含私人 Codex 任务，也不代表官方主题支持或一键安装能力。
 
 ## Skill 如何思考
 
@@ -79,9 +96,8 @@ my-skin/
 ## 仓库结构
 
 ```text
-make-codex-skin/          可以安装的 Skill
-examples/                 一个可检查的输出案例
-docs/                     一张脱敏 README 图片
+make-codex-skin/          可以安装的 Skill，内含两个案例
+docs/                     脱敏 README 预览图
 README.md                 英文项目介绍
 README.zh-CN.md           中文项目介绍
 LICENSE                   MIT

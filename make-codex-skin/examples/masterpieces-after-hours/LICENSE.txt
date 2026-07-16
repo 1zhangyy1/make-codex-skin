@@ -1,0 +1,6 @@
+Public example, no separate reuse license granted for the image asset.
+
+The background artwork was generated with OpenAI image generation for this
+project. It reinterprets public-domain paintings by Leonardo da Vinci,
+Johannes Vermeer, and Vincent van Gogh. The manifest remains UNLICENSED until
+the creator chooses explicit reuse terms for the generated image.

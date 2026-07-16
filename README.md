@@ -10,7 +10,7 @@ English · [简体中文](./README.zh-CN.md)
 
 </div>
 
-![Example skin shown in a safe mock preview](./docs/example-skin.jpg)
+![Masterpieces After Hours shown in a sanitized mock preview](./docs/masterpieces-after-hours-preview.jpg)
 
 ## One repository, one Skill
 
@@ -58,7 +58,24 @@ my-skin/
     └── background.png   optional
 ```
 
-See [`examples/parisian-atelier`](./examples/parisian-atelier/) for one generated result. It is an example of the workflow, not a recipe the AI must follow.
+Two inspectable results are included:
+
+- [`make-codex-skin/examples/parisian-atelier`](./make-codex-skin/examples/parisian-atelier/) — a procedural skin derived from a French romantic direction.
+- [`make-codex-skin/examples/masterpieces-after-hours`](./make-codex-skin/examples/masterpieces-after-hours/) — an image-based skin derived from “people from famous paintings using computers.”
+
+They demonstrate the workflow; neither is a recipe the AI must follow.
+
+## Image-based example: Masterpieces After Hours
+
+The short request was:
+
+> Make an art-exhibition skin where people from famous paintings are using computers.
+
+The Skill turned it into a museum after closing time, with new interpretations of Mona Lisa, the Girl with a Pearl Earring, and Vincent van Gogh grouped on the right around blank computers. The left side and lower center remain quiet for native Codex content.
+
+The artwork was generated for this project with OpenAI image generation. The figures reinterpret public-domain paintings; no third-party painting files, logos, screen text, or fake UI were embedded. The image asset remains `UNLICENSED` until the creator chooses explicit reuse terms.
+
+The preview above is a sanitized mockup made for the repository. It contains no private Codex tasks and is not proof of official theme support or one-click installation.
 
 ## How the Skill thinks
 
@@ -79,9 +96,8 @@ Creative decisions remain high-freedom. Package structure, readability, rights, 
 ## Repository map
 
 ```text
-make-codex-skin/          the installable Skill
-examples/                 one inspectable output
-docs/                     one sanitized README image
+make-codex-skin/          the installable Skill, including two examples
+docs/                     sanitized README preview
 README.md                 English project page
 README.zh-CN.md           Chinese project page
 LICENSE                   MIT

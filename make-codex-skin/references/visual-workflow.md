@@ -37,4 +37,4 @@ Review at least home and task states when a preview exists. Fix interaction, rea
 
 ## Rights
 
-Use user-owned, generated, licensed, or public-domain artwork. Record attribution when required. Do not assume that a public image, celebrity photo, character, logo, or brand asset can be redistributed.
+Use user-owned, generated, licensed, or public-domain artwork. Record attribution when required. For public-domain art reinterpretations, record the original artists or works and create a new composition; remember that a modern scan or photograph of an old work may carry separate rights. Do not assume that a public image, celebrity photo, character, logo, or brand asset can be redistributed.

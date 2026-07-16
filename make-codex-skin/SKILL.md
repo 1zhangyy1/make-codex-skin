@@ -21,6 +21,7 @@ Create a coherent Codex visual system, not a wallpaper pasted behind the app. Ke
 - Read `references/visual-workflow.md` when creating or adapting artwork and deriving a palette.
 - Read `references/skin-format.md` before writing `skin.json` or preparing a shareable folder.
 - Read `references/qa.md` before presenting a skin as complete.
+- Read `examples/masterpieces-after-hours/` only when a worked image-based output would help, and `examples/parisian-atelier/` only when a worked procedural output would help. Learn the workflow and package shape; never treat either example as a style recipe.
 
 ## Create a skin
 

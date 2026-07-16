@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "masterpieces-after-hours",
+  "version": "0.1.0",
+  "name": {
+    "en": "Masterpieces After Hours",
+    "zh-CN": "名画夜班"
+  },
+  "summary": "After closing time, Mona Lisa, the Girl with a Pearl Earring, and Vincent van Gogh leave their canvases for a quiet night shift at the computer.",
+  "author": "Make Codex Skin example",
+  "license": "UNLICENSED",
+  "engine": {
+    "minVersion": "0.1.0"
+  },
+  "appearance": {
+    "palette": {
+      "background": "#E8DED0",
+      "surface": "#F6F0E8",
+      "sidebar": "#DED1C1",
+      "text": "#2B211B",
+      "muted": "#6D5E52",
+      "accent": "#365E83",
+      "accentSoft": "#B7C7D5",
+      "border": "#A89582"
+    },
+    "typography": {
+      "ui": "system-sans",
+      "code": "system-mono"
+    },
+    "layout": {
+      "preset": "editorial",
+      "radius": 12,
+      "sidebarOpacity": 0.92,
+      "taskOpacity": 0.62
+    },
+    "artwork": {
+      "kind": "image",
+      "source": "assets/background.png",
+      "focalPoint": [0.82, 0.44],
+      "safeArea": [0.06, 0.08, 0.27, 0.14]
+    },
+    "effects": {
+      "blur": 14,
+      "grain": 0.04,
+      "glow": false,
+      "motion": "none"
+    }
+  },
+  "compatibility": {
+    "targets": ["codex-desktop-macos"],
+    "profiles": ["codex-mac-26.7"],
+    "minVersion": "26.707.0",
+    "maxTestedVersion": "26.707.72221",
+    "mode": "external-renderer"
+  }
+}
